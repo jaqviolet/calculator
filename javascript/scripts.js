@@ -14,11 +14,14 @@ $('button').click(function(){
     $('#top').html(lyrics[counter]);
     counter+=1;
   }
+  
   else if(counter=>24){
     counter=0;
     $('#top').html(lyrics[counter]);
   }
+
 });
+
   // after answer given, calc needs to reset if a number is pressed.
   $('.number').click(function() {
     if (bool == false) {
@@ -27,8 +30,9 @@ $('button').click(function(){
         display = '';
         chain = '';
       }
+    } 
 
-    } else {
+    else {
       bool = false;
       display = this.value;
       chain = '';
@@ -81,7 +85,9 @@ $('button').click(function(){
       display = answer.toString();
       chain = answer.toString();
       answer = 0;
-    } else {
+    } 
+
+    else {
       display = '';
       array = [];
       chain = '';
@@ -89,10 +95,6 @@ $('button').click(function(){
       $('#equation').html(chain);
       $('#entry').html(answer);
     }
-    console.log(answer);
-    console.log(chain);
-    console.log(array);
-
   });
 
   $('#ac').click(function() {
@@ -114,10 +116,9 @@ $('button').click(function(){
     if (regexDec.test(display) == false) {
       display += this.value;
       $('#entry').html(display);
-    } else {
-      console.log('poop');
-    }
+    } 
    }
+   
    else{
      bool=false;
      display=this.value
@@ -128,6 +129,17 @@ $('button').click(function(){
   });
   //end document ready  
   
+
+
+
+
+
+
+
+
+
+
+
   var lyrics=['I\'m the operator',
 'With my pocket calculator',
 'I\'m the operator',
