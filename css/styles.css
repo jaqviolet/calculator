@@ -1,0 +1,99 @@
+body {
+ 
+   background-image: url('http://wallpaper-gallery.net/images/kraftwerk-wallpaper/kraftwerk-wallpaper-1.jpg');
+  background-size: 100%;
+    
+  font-family: audiowide;
+}
+
+.calculator {
+  height: 460px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-left: 65%;
+  margin-right: auto;
+  margin-top: 8%;
+  background-color: grey;
+}
+
+.entrybox {
+  border: 2px solid black;
+  width: 85%;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#entry{
+  color:yellow;
+  text-align:right;
+  font-size:42px;
+  margin-top:-10px;
+  margin-right:8px;
+  margin-bottom:-20px;
+}
+ p{
+  font-size:15px;
+  color:yellow;
+  text-align:right;
+  
+  
+}
+
+#top {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: audiowide;
+  text-align:center;
+}
+
+#buttons {
+  margin-left: 22.5px;
+  margin-top: 20px;
+}
+
+button {
+  width: 65px;
+  height: 45px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: black;
+  border-radius:5px;
+}
+
+#zero {
+  width:140px;
+}
+
+#equal {
+  position:absolute;
+  height:100px;
+  margin-left:10px;
+  margin-top:-55px;
+}
+#title{
+  height:50px;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #922031;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
