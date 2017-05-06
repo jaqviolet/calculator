@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 Kraftwerk inspired front end calculator
 
